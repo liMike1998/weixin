@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/common/common",
+    "pages/data/data",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "We健康",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/data/data",
+        "text": "数据"
+      },
+      {
+        "pagePath": "pages/common/common",
+        "text": "常识"
+      }
+    ]
+  }
+}
